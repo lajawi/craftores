@@ -4,7 +4,7 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 ---
 ## CraftOres V1
 ---
-### Added
+### Additions
 - Crafting recipes for all ore blocks including
     - Coal ore
     - Deepslate coal ore
