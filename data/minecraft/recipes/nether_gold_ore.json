@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "Gold Ore",
+    "ingredients": [
+        {
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:raw_gold"
+        },
+        {
+            "item": "minecraft:raw_gold"
+        },
+        {
+            "item": "minecraft:raw_gold"
+        }
+    ],
+    "result": {
+        "item": "minecraft:nether_gold_ore",
+        "count": 1
+    }
+}
