@@ -1,5 +1,5 @@
 # Changelog
-Welcome to the changelog. Here you will find all versions of CraftOres documented, together with all the changes made in each version. Even if newer versions of CraftOres are released, the changelog o older versions may get updated if any changes were forgotten, spelling mistakes were made etc.
+Welcome to the changelog. Here you will find all versions of CraftOres documented, together with all the changes made in each version. Even if newer versions of CraftOres are released, the changelog of older versions may get updated if any changes were forgotten, spelling mistakes were made etc.
 
 ---
 ## CraftOres V1
@@ -28,5 +28,19 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
     - Raw gold
     - Raw iron
 
-- `pack.mcmeta`, stating datapack version and description
-- `README.md`
+- [`pack.mcmeta`](../pack.mcmeta), stating datapack version and description
+- [`README.md`](./README.md)
+
+---
+## CraftOres V1.0.1
+---
+### Additions
+- [`LICENSE.md`](./LICENSE.md). Check out the license.
+### Changes
+- Changed folderstructure
+    - Now all docs not related to Minecraft will be stored in [documents](../docs/), currently including:
+        - [`README.md`](./README.md)
+        - [`LICENSE.md`](./LICENSE.md)
+        - [`changelog.md`](./changelog.md)
+### Updated
+- [`changelog.md`](./changelog.md)
