@@ -12,6 +12,10 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
     - [Additions](#additions-2)
     - [Changes](#changes-1)
     - [Updated](#updated-1)
+  - [CraftOres V1.0.3](#craftores-v103)
+    - [Additions](#additions-3)
+    - [Changes](#changes-2)
+    - [Updated](#updated-2)
 
 ---
 ## CraftOres V1
@@ -73,6 +77,17 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
   - [Issues and ideas](README.md#issues-and-ideas)
 - [`LICENSE.md`](LICENSE.md).
   - Simplefied: Reussing parts of the software in your own is granted, *as long as you give proper credit where credit is due.* For further information read [`LICENSE.md`](LICENSE.md)
+### Updated
+- [`changelog.md`](changelog.md)
+
+---
+## CraftOres V1.0.3
+
+---
+### Additions
+- More [documentation images](images/) for the raw metals
+### Changes
+- [`README.md`](README.md) now has documentation for the recipes for the [raw](README.md#raw-ingots) metals
 ### Updated
 - [`changelog.md`](changelog.md)
 

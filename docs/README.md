@@ -15,6 +15,7 @@ This data pack adds multiple new recipes to craft all ore block variants, and fo
       - [Nether Gold Ore](#nether-gold-ore)
       - [Lapis Lazuli Ore](#lapis-lazuli-ore)
       - [Redstone Ore](#redstone-ore)
+      - [Raw Metals](#raw-metals)
   - [Install](#install)
     - [Singleplayer](#singleplayer)
       - [At the creation of a world](#at-the-creation-of-a-world)
@@ -69,6 +70,12 @@ And then you have:
 
 #### [Redstone Ore](https://minecraft.fandom.com/wiki/Redstone_Ore "Redstone Ore")
 ![Redstone ore](images/crafting_redstone_ore.gif)
+
+---
+#### Raw Metals
+[Raw copper](https://minecraft.fandom.com/wiki/Raw_Copper "Raw Copper"), [gold](https://minecraft.fandom.com/wiki/Raw_Gold "Raw Gold"), and [iron](https://minecraft.fandom.com/wiki/Raw_Iron "Raw Iron") are crafted using 4 ingots and one gravel.
+
+![Raw metals](images/crafting_raw.gif)
 
 ## [Install](https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack "Installing a data pack")
 ### [Singleplayer](https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack#Singleplayer "Installing a data pack - Singleplayer")
