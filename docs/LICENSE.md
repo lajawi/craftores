@@ -1,17 +1,20 @@
-## MIT License
+## License
 
 Copyright (c) 2022 lajawi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to reuse parts of the
+software in their own software. Distributing the software "as is", without
+any majour modifications or additions as well as selling parts of it, even
+if integrated in your own software, is hereby prohibited.
+
+If you choose to integrate parts of the software in your software, you have
+to subject to the following conditions.
 
 * The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-* Proper credit is given were credit is due.
+* The author and the software ought to be mentioned clearly, as well as any
+links to the authors socials and the softwares site.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

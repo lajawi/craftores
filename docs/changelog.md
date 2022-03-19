@@ -1,8 +1,21 @@
 # Changelog
 Welcome to the changelog. Here you will find all versions of CraftOres documented, together with all the changes made in each version. Even if newer versions of CraftOres are released, the changelog of older versions may get updated if any changes were forgotten, spelling mistakes were made etc.
 
+- [Changelog](#changelog)
+  - [CraftOres V1](#craftores-v1)
+    - [Additions](#additions)
+  - [CraftOres V1.0.1](#craftores-v101)
+    - [Additions](#additions-1)
+    - [Changes](#changes)
+    - [Updated](#updated)
+  - [CraftOres V1.0.2](#craftores-v102)
+    - [Additions](#additions-2)
+    - [Changes](#changes-1)
+    - [Updated](#updated-1)
+
 ---
 ## CraftOres V1
+
 ---
 ### Additions
 - Crafting recipes for all ore blocks including
@@ -33,6 +46,7 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 
 ---
 ## CraftOres V1.0.1
+
 ---
 ### Additions
 - [`LICENSE.md`](./LICENSE.md). Check out the license.
@@ -44,3 +58,23 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
         - [`changelog.md`](./changelog.md)
 ### Updated
 - [`changelog.md`](./changelog.md)
+
+---
+## CraftOres V1.0.2
+
+---
+### Additions
+- [Documentation images](images/)
+- [Data pack image](../pack.png)
+### Changes
+- [`README.md`](README.md) now has a more detailed documentation about the software
+  - [How to craft](README.md#how-to-craft)
+  - [Install](README.md#install)
+  - [Issues and ideas](README.md#issues-and-ideas)
+- [`LICENSE.md`](LICENSE.md).
+  - Simplefied: Reussing parts of the software in your own is granted, *as long as you give proper credit where credit is due.* For further information read [`LICENSE.md`](LICENSE.md)
+### Updated
+- [`changelog.md`](changelog.md)
+
+---
+##
