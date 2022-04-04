@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:gold_ore",
+            "craftores:deepslate_gold_ore"
+        ]
+    },
+    "criteria": {
+        "has_raw_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:raw_gold"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_raw_gold"
+        ]
+    ]
+}

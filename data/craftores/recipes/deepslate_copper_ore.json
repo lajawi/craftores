@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "Copper Ore",
+    "ingredients": [
+        {
+            "item": "minecraft:deepslate"
+        },
+        {
+            "item": "minecraft:raw_copper_block"
+        },
+        {
+            "item": "minecraft:raw_copper_block"
+        },
+        {
+            "item": "minecraft:raw_copper"
+        },
+        {
+            "item": "minecraft:raw_copper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:deepslate_copper_ore"
+    }
+}

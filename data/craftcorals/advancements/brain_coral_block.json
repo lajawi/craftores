@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftcorals:brain_coral_block"
+        ]
+    },
+    "criteria": {
+        "has_brain_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "craftcorals:brain_coral"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_brain_coral"
+        ]
+    ]
+}

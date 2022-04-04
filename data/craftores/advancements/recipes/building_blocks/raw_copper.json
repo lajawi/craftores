@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:raw_copper"
+        ]
+    },
+    "criteria": {
+        "has_copper_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gravel"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_copper_ingot"
+        ],
+        [
+            "has_gravel"
+        ]
+    ]
+}

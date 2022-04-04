@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "Diamond Ore",
+    "ingredients": [
+        {
+            "item": "minecraft:stone"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diamond_ore"
+    }
+}

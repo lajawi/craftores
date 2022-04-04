@@ -2,23 +2,27 @@
 Welcome to the changelog. Here you will find all versions of CraftOres documented, together with all the changes made in each version. Even if newer versions of CraftOres are released, the changelog of older versions may get updated if any changes were forgotten, spelling mistakes were made etc.
 
 - [Changelog](#changelog)
-  - [CraftOres V1](#craftores-v1)
+  - [CraftOres V1.0.0 - Release](#craftores-v100---release)
     - [Additions](#additions)
-  - [CraftOres V1.0.1](#craftores-v101)
+  - [CraftOres V1.0.1 - More Folders](#craftores-v101---more-folders)
     - [Additions](#additions-1)
     - [Changes](#changes)
     - [Updated](#updated)
-  - [CraftOres V1.0.2](#craftores-v102)
+  - [CraftOres V1.0.2 - Documentation](#craftores-v102---documentation)
     - [Additions](#additions-2)
     - [Changes](#changes-1)
     - [Updated](#updated-1)
-  - [CraftOres V1.0.3](#craftores-v103)
+  - [CraftOres V1.0.3 - Documentation Raw Metals](#craftores-v103---documentation-raw-metals)
     - [Additions](#additions-3)
     - [Changes](#changes-2)
     - [Updated](#updated-2)
+  - [CraftOres V1.1.0 - Coral Update](#craftores-v110---coral-update)
+    - [Additions](#additions-4)
+    - [Changes](#changes-3)
+    - [Updated](#updated-3)
 
 ---
-## CraftOres V1
+## CraftOres V1.0.0 - Release
 
 ---
 ### Additions
@@ -44,12 +48,11 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
     - Raw copper
     - Raw gold
     - Raw iron
-
 - [`pack.mcmeta`](../pack.mcmeta), stating datapack version and description
 - [`README.md`](./README.md)
 
 ---
-## CraftOres V1.0.1
+## CraftOres V1.0.1 - More Folders
 
 ---
 ### Additions
@@ -64,7 +67,7 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 - [`changelog.md`](./changelog.md)
 
 ---
-## CraftOres V1.0.2
+## CraftOres V1.0.2 - Documentation
 
 ---
 ### Additions
@@ -81,7 +84,7 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 - [`changelog.md`](changelog.md)
 
 ---
-## CraftOres V1.0.3
+## CraftOres V1.0.3 - Documentation Raw Metals
 
 ---
 ### Additions
@@ -92,4 +95,26 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 - [`changelog.md`](changelog.md)
 
 ---
-##
+## CraftOres V1.1.0 - Coral Update
+
+---
+### Additions
+- [`credits.txt`](CREDITS.txt) stating all third parties involved. Can be found in [`README.md#Credits`](README.md#Credits) as well
+- [`howtocraft.md`](howtocraft.md) now has all the crafting recipes, instead of [`README.md`](README.md) to prevent cluttering
+- Added [advancements](../data/craftores/advancements/), you unlock recipes by getting required items
+- Recipes to craft coral blocks, dead and alive, using their respective corals and coral fans, including [advancements](../data/craftcorals/advancements/), in a separate namespace called [`craftcorals`](../data/craftcorals/). Heavily inspired by [VanillaTweaks](https://vanillatweaks.net/ "Vanilla Tweaks")
+  - Coral block recipes are documented in [`howtocraft.md`](howtocraft.md)
+- Added a recipe to *uncraft* amethyst blocks into shards again
+  - Recipe documented in [`howtocraft.md`](howtocraft.md)
+### Changes
+- Removed crafting recipes from [`README.md`](README.md) to prevent cluttering. Visit [`howtocraft.md`](howtocraft.md) to get a full documentation of all recipes
+- Changed the hierarchy of the [`README.md`](README.md) file
+- Namespace renamed from `minecraft` to `craftores` to represent the pack better, and to prevent conflicts between CraftOres and other packs
+- Changed coal ore recipes to use [tags](../data/craftores/tags/)
+- Removed the `"count"` in most recipes, as it defaults to one without
+- Changed folder structure in [`images`](images/)
+### Updated
+- [`changelog.md`](changelog.md)
+  - Added new version
+  - Added titles to older versions briefly describing what the updates were
+- Updated [`howtocraft.md`](howtocraft.md) and [`README.md`](README.md) to account for the new folder structure in [`images`](images/)

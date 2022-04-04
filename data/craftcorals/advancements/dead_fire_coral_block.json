@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftcorals:dead_fire_coral_block"
+        ]
+    },
+    "criteria": {
+        "has_dead_fire_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "craftcorals:dead_fire_coral"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_dead_fire_coral"
+        ]
+    ]
+}
