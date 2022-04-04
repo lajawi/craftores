@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:nether_quartz_ore"
+        ]
+    },
+    "criteria": {
+        "has_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:quartz"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_quartz"
+        ]
+    ]
+}

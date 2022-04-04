@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "Lapis Lazuli Ore",
+    "ingredients": [
+        {
+            "item": "minecraft:stone"
+        },
+        {
+            "item": "minecraft:lapis_block"
+        },
+        {
+            "item": "minecraft:lapis_block"
+        },
+        {
+            "item": "minecraft:lapis_block"
+        },
+        {
+            "item": "minecraft:lapis_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lapis_ore"
+    }
+}

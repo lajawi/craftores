@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftcorals:bubble_coral_block"
+        ]
+    },
+    "criteria": {
+        "has_bubble_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "craftcorals:bubble_coral"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bubble_coral"
+        ]
+    ]
+}

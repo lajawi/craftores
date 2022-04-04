@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:raw_gold"
+        ]
+    },
+    "criteria": {
+        "has_gold_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gravel"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_gold_ingot"
+        ],
+        [
+            "has_gravel"
+        ]
+    ]
+}

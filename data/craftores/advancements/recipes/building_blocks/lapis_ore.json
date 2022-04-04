@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:lapis_ore",
+            "craftores:deepslate_lapis_ore"
+        ]
+    },
+    "criteria": {
+        "has_lapis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lapis_lazuli"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_lapis"
+        ]
+    ]
+}

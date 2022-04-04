@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:nether_gold_ore"
+        ]
+    },
+    "criteria": {
+        "has_raw_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:raw_gold"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_netherrack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherrack"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_raw_gold"
+        ],
+        [
+            "has_netherrack"
+        ]
+    ]
+}

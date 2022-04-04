@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "craftores:iron_ore",
+            "craftores:deepslate_iron_ore"
+        ]
+    },
+    "criteria": {
+        "has_raw_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:raw_iron"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_raw_iron"
+        ]
+    ]
+}
