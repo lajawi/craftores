@@ -3,29 +3,17 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 
 - [Changelog](#changelog)
   - [CraftOres V1.0.0 - Release](#craftores-v100---release)
-    - [Additions](#additions)
   - [CraftOres V1.0.1 - More Folders](#craftores-v101---more-folders)
-    - [Additions](#additions-1)
-    - [Changes](#changes)
-    - [Updated](#updated)
   - [CraftOres V1.0.2 - Documentation](#craftores-v102---documentation)
-    - [Additions](#additions-2)
-    - [Changes](#changes-1)
-    - [Updated](#updated-1)
   - [CraftOres V1.0.3 - Documentation Raw Metals](#craftores-v103---documentation-raw-metals)
-    - [Additions](#additions-3)
-    - [Changes](#changes-2)
-    - [Updated](#updated-2)
   - [CraftOres V1.1.0 - Coral Update](#craftores-v110---coral-update)
-    - [Additions](#additions-4)
-    - [Changes](#changes-3)
-    - [Updated](#updated-3)
+  - [CraftOres V1.1.1 - Spelling Correction](#craftores-v111---spelling-correction)
 
 ---
 ## CraftOres V1.0.0 - Release
 
 ---
-### Additions
+### Additions<!-- omit in toc -->
 - Crafting recipes for all ore blocks including
     - Coal ore
     - Deepslate coal ore
@@ -55,50 +43,50 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
 ## CraftOres V1.0.1 - More Folders
 
 ---
-### Additions
+### Additions<!-- omit in toc -->
 - [`LICENSE.md`](./LICENSE.md). Check out the license.
-### Changes
+### Changes<!-- omit in toc -->
 - Changed folderstructure
     - Now all docs not related to Minecraft will be stored in [documents](../docs/), currently including:
         - [`README.md`](./README.md)
         - [`LICENSE.md`](./LICENSE.md)
         - [`changelog.md`](./changelog.md)
-### Updated
+### Updated<!-- omit in toc -->
 - [`changelog.md`](./changelog.md)
 
 ---
 ## CraftOres V1.0.2 - Documentation
 
 ---
-### Additions
+### Additions<!-- omit in toc -->
 - [Documentation images](images/)
 - [Data pack image](../pack.png)
-### Changes
+### Changes<!-- omit in toc -->
 - [`README.md`](README.md) now has a more detailed documentation about the software
   - [How to craft](README.md#how-to-craft)
   - [Install](README.md#install)
   - [Issues and ideas](README.md#issues-and-ideas)
 - [`LICENSE.md`](LICENSE.md).
   - Simplefied: Reussing parts of the software in your own is granted, *as long as you give proper credit where credit is due.* For further information read [`LICENSE.md`](LICENSE.md)
-### Updated
+### Updated<!-- omit in toc -->
 - [`changelog.md`](changelog.md)
 
 ---
 ## CraftOres V1.0.3 - Documentation Raw Metals
 
 ---
-### Additions
+### Additions<!-- omit in toc -->
 - More [documentation images](images/) for the raw metals
-### Changes
+### Changes<!-- omit in toc -->
 - [`README.md`](README.md) now has documentation for the recipes for the [raw](README.md#raw-ingots) metals
-### Updated
+### Updated<!-- omit in toc -->
 - [`changelog.md`](changelog.md)
 
 ---
 ## CraftOres V1.1.0 - Coral Update
 
 ---
-### Additions
+### Additions<!-- omit in toc -->
 - [`credits.txt`](CREDITS.txt) stating all third parties involved. Can be found in [`README.md#Credits`](README.md#Credits) as well
 - [`howtocraft.md`](howtocraft.md) now has all the crafting recipes, instead of [`README.md`](README.md) to prevent cluttering
 - Added [advancements](../data/craftores/advancements/), you unlock recipes by getting required items
@@ -106,15 +94,27 @@ Welcome to the changelog. Here you will find all versions of CraftOres documente
   - Coral block recipes are documented in [`howtocraft.md`](howtocraft.md)
 - Added a recipe to *uncraft* amethyst blocks into shards again
   - Recipe documented in [`howtocraft.md`](howtocraft.md)
-### Changes
+### Changes<!-- omit in toc -->
 - Removed crafting recipes from [`README.md`](README.md) to prevent cluttering. Visit [`howtocraft.md`](howtocraft.md) to get a full documentation of all recipes
 - Changed the hierarchy of the [`README.md`](README.md) file
 - Namespace renamed from `minecraft` to `craftores` to represent the pack better, and to prevent conflicts between CraftOres and other packs
 - Changed coal ore recipes to use [tags](../data/craftores/tags/)
 - Removed the `"count"` in most recipes, as it defaults to one without
 - Changed folder structure in [`images`](images/)
-### Updated
+### Updated<!-- omit in toc -->
 - [`changelog.md`](changelog.md)
   - Added new version
   - Added titles to older versions briefly describing what the updates were
 - Updated [`howtocraft.md`](howtocraft.md) and [`README.md`](README.md) to account for the new folder structure in [`images`](images/)
+
+---
+## CraftOres V1.1.1 - Spelling Correction
+
+---
+### Changes<!-- omit in toc -->
+- Changed the name from `/images\amythyst_shard.png` to [`/images\crafting_amethyst_shard.png`](images/crafting_amethyst_shard.png)
+  - Changed the links to above file in [`howtocraft.md#amethyst-shards`](howtocraft.md#amethyst-shardshttpsminecraftfandomcomwikiamethystshard-"amethyst-shard") accordingly
+- Excluded the title from [`howtocraft.md`](howtocraft.md) from the table of contents
+### Updated<!-- omit in toc -->
+- [`changelog.md`](changelog.md)
+  - Excluded all heading level 3 from the table of contents
