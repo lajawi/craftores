@@ -22,12 +22,14 @@ The amount of items you need to craft is bound to the maximum amount of drops yo
 
 All crafting recipes require a base block, [stone](https://minecraft.fandom.com/wiki/Stone "Stone"), [deepslate](https://minecraft.fandom.com/wiki/Deepslate "Deepslate"), or in some cases, [netherrack](https://minecraft.fandom.com/wiki/Netherrack "Netherrack").
 
-For more information on how to craft ore blocks, you can check [`howtocraft.md`](howtocraft.md)
+For more information on how to craft ore blocks, you can check [`howtocraft.md#ore-blocks`](howtocraft.md#ore-blocks)
 
 ![All ores](images/craftores/crafting_ores_combined.gif)
 
 ## [Raw Metals](https://minecraft.fandom.com/wiki/Raw_Metal "Raw Metal")
 [Raw copper](https://minecraft.fandom.com/wiki/Raw_Copper "Raw Copper"), [gold](https://minecraft.fandom.com/wiki/Raw_Gold "Raw Gold"), and [iron](https://minecraft.fandom.com/wiki/Raw_Iron "Raw Iron") are crafted using 4 ingots and one gravel.
+
+For more information on how to craft raw metals, you can check [`howtocraft.md#raw-metals`](howtocraft.md#raw-metals)
 
 ![Raw metals](images/craftraw/crafting_raw.gif)
 
